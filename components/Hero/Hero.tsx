@@ -22,7 +22,7 @@ export function Hero() {
                 transition={{ duration: 0.6, delay: 0.2 }}
                 className="block"
               >
-                Wilkie
+                WCO Build
               </motion.span>
               <motion.span
                 initial={{ opacity: 0, x: 20 }}
@@ -30,7 +30,7 @@ export function Hero() {
                 transition={{ duration: 0.6, delay: 0.4 }}
                 className="block text-yellow-400"
               >
-                & Co
+                & Design
               </motion.span>
             </h1>
           </motion.div>

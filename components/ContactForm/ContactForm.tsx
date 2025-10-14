@@ -564,7 +564,7 @@ export function ContactForm() {
           )}
 
           <p className="text-center text-xs text-slate-600 dark:text-slate-300">
-            Prefer email? Write to us at enquiries@wilkieandcojoinery.com
+            Prefer email? Write to us at enquiries@WCOBuildAndDesign.com
           </p>
         </form>
       </CardContent>

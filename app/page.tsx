@@ -7,15 +7,15 @@ import { ProjectSlider } from "@/components/ProjectSlider/ProjectSlider"
 import { Testimonials } from "@/components/Testimonials/Testimonials"
 
 export const metadata: Metadata = {
-  title: "Wilkie & Co - Expert Joinery Services Edinburgh",
+  title: "WCO Build & Design - Expert Joinery Services Edinburgh",
   description:
     "Crafting Excellence, Creating Beautiful Interiors. Expert joinery services in Edinburgh specializing in bespoke kitchens, built-in furniture, and home renovations for individual homeowners.",
   twitter: {
     card: "summary_large_image",
   },
   openGraph: {
-    url: "https://wilkieandco.vercel.app/",
-    title: "Wilkie & Co - Expert Joinery Services Edinburgh",
+    url: "https://WCOBuildAndDesign.com/",
+    title: "WCO Build & Design - Expert Joinery Services Edinburgh",
     description:
       "Crafting Excellence, Creating Beautiful Interiors. Expert joinery services in Edinburgh for bespoke kitchens and home renovations.",
     images: [
@@ -50,7 +50,7 @@ export default function HomePage() {
           <div className="rounded-2xl bg-slate-800/80 p-6 backdrop-blur">
             <h3 className="mb-3 font-serif text-2xl font-bold text-white">Ready to Transform Your Home?</h3>
             <p className="mb-5 text-base text-slate-300 text-pretty">
-              Join our satisfied Edinburgh homeowners and experience the Wilkie & Co difference. Contact us today for a
+              Join our satisfied Edinburgh homeowners and experience the WCO Build & Design difference. Contact us today for a
               free consultation on your joinery or renovation project.
             </p>
             <div className="flex flex-col justify-center gap-3">

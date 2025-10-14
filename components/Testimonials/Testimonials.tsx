@@ -19,7 +19,7 @@ const testimonials: Testimonial[] = [
     title: "Homeowner",
     company: "Morningside, Edinburgh",
     quote:
-      "Wilkie & Co completely transformed our kitchen beyond our wildest dreams. Their craftsmanship is exceptional and they understood exactly what we needed for our family. The attention to detail in every joint and finish is incredible.",
+      "WCO Build & Design completely transformed our kitchen beyond our wildest dreams. Their craftsmanship is exceptional and they understood exactly what we needed for our family. The attention to detail in every joint and finish is incredible.",
     rating: 5,
   },
   {
@@ -64,7 +64,7 @@ const testimonials: Testimonial[] = [
     title: "Homeowner",
     company: "Portobello, Edinburgh",
     quote:
-      "From the initial consultation to the final touch-ups, Wilkie & Co made our home renovation stress-free. Their small team approach meant we got to know everyone and they really cared about getting every detail right.",
+      "From the initial consultation to the final touch-ups, WCO Build & Design made our home renovation stress-free. Their small team approach meant we got to know everyone and they really cared about getting every detail right.",
     rating: 5,
   },
 ]
@@ -192,7 +192,7 @@ export function Testimonials() {
           <div className="rounded-2xl bg-slate-800/80 p-5 md:p-8 lg:p-12 backdrop-blur">
             <h3 className="mb-4 font-serif text-2xl font-bold text-white md:text-3xl">Ready to Transform Your Home?</h3>
             <p className="mx-auto mb-6 max-w-2xl text-sm md:text-lg text-slate-300 text-pretty">
-              Join our satisfied Edinburgh homeowners and experience the Wilkie & Co difference. Contact us today for a
+              Join our satisfied Edinburgh homeowners and experience the WCO Build & Design difference. Contact us today for a
               free consultation on your joinery or renovation project.
             </p>
             <div className="flex flex-col justify-center gap-4 sm:flex-row">
