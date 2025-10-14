@@ -67,7 +67,7 @@ export async function sendInternalNotificationEmail(data: ContactFormData) {
       <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>New Contact Form Submission - Wilkie & Co</title>
+        <title>New Contact Form Submission - WCO Build & Design</title>
         <style>
           body { 
             font-family: 'Open Sans', Arial, sans-serif; 
@@ -248,7 +248,7 @@ export async function sendInternalNotificationEmail(data: ContactFormData) {
             
             <div class="action-buttons">
               ${data.email ? `
-              <a href="mailto:${data.email}?subject=Re: Your enquiry - Wilkie & Co" class="btn btn-primary">
+              <a href="mailto:${data.email}?subject=Re: Your enquiry - WCO Build & Design" class="btn btn-primary">
                 Reply to Customer
               </a>
               ` : ''}

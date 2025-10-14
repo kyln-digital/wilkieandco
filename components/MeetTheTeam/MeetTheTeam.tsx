@@ -70,7 +70,7 @@ export function MeetTheTeam() {
         >
           <h2 className="mb-3 font-serif text-3xl font-bold text-white md:text-4xl lg:text-5xl">Meet the Team</h2>
           <p className="mx-auto max-w-3xl text-base text-slate-300 md:text-xl">
-            Get to know the skilled craftspeople behind Wilkie & Co. Our experienced team brings passion, expertise, and 
+            Get to know the skilled craftspeople behind WCO Build & Design. Our experienced team brings passion, expertise, and 
             attention to detail to every project we undertake.
           </p>
         </motion.div>
@@ -101,7 +101,7 @@ export function MeetTheTeam() {
                   <h3 className="mb-2 font-serif text-xl md:text-2xl font-bold text-white">{founder.name}</h3>
                   <p className="mb-4 text-base md:text-lg font-semibold text-yellow-500">{founder.title}</p>
                   <p className="text-slate-300 leading-relaxed">
-                    Leading Wilkie & Co with decades of experience in traditional and modern joinery techniques, 
+                    Leading WCO Build & Design with decades of experience in traditional and modern joinery techniques, 
                     Euan brings unmatched expertise and craftsmanship to every project.
                   </p>
                 </CardContent>
@@ -176,7 +176,7 @@ export function MeetTheTeam() {
                             <h4 className="mb-1 font-serif text-xl font-bold text-white">{member.name}</h4>
                             <p className="text-sm font-semibold text-yellow-500">{member.title}</p>
                             <p className="mt-3 text-sm text-slate-300">
-                              Leading Wilkie & Co with decades of experience in traditional and modern joinery
+                              Leading WCO Build & Design with decades of experience in traditional and modern joinery
                               techniques, Euan brings unmatched expertise and craftsmanship to every project.
                             </p>
                           </CardContent>

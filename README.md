@@ -1,1 +1,1 @@
-Wilkie & Co, Edinburgh based joinery company.
+WCO Build & Design, Edinburgh based joinery company.
