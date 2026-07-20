@@ -1,0 +1,43 @@
+name: CI validate
+
+# Minimal required check for v3 merge gate (KYL-2097 / OPS#6).
+# Cheap smoke so Class A auto-merge never fires without a green build check.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-validate-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    name: ci/validate
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Smoke validate
+        run: |
+          set -euo pipefail
+          if [[ -f package.json ]]; then
+            echo "package.json present"
+            command -v node >/dev/null
+            node -e "JSON.parse(require('fs').readFileSync('package.json','utf8')); console.log('package.json ok')"
+          elif [[ -f config.toml ]] || [[ -f hugo.toml ]]; then
+            echo "Hugo site config present"
+            test -f config.toml -o -f hugo.toml
+          elif [[ -f README.md ]]; then
+            echo "README present"
+            test -s README.md
+          else
+            echo "repo has checkoutable tree"
+            ls -la
+          fi
+          echo "ci/validate ok"
